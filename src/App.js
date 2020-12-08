@@ -5,7 +5,7 @@ import {emojiList , topEmoji} from './emojis.js';
 export default function App() {
   
 
-  var [meaning , setMeaning] = useState("");
+  var [emojiMeaning , setMeaning] = useState("");
 
   function onChangeHandler(event){
     var inputEmoji = event.target.value;
@@ -27,7 +27,7 @@ export default function App() {
       <h1> 👉 EMOJI MEANING 👈</h1>
       <h3 className = "subhead">Ever wondered, what these expressive emojis, actually mean?<br /> Well check it out here! Just type an Emoji in the search bar and see my version of EMOJI Meaning!</h3>
       <input onChange = {onChangeHandler} placeholder = "Type in your Emojis here"></input>
-      <div className ="outputTxt">{meaning}</div>
+      <div className ="outputTxt">{emojiMeaning}</div>
       <h4>Here are the top 5 Emojis I use!</h4>
       <div className ="topEmojiBox">
         {
