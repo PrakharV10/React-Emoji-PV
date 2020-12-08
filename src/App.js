@@ -4,8 +4,7 @@ import {emojiList , topEmoji} from './emojis.js';
 
 export default function App() {
   
-
-  var [emojiMeaning , setMeaning] = useState("");
+  var [emojiMeaning , setEmojiMeaning] = useState("Type or Click an Emoji");
 
   function onChangeHandler(event){
     var inputEmoji = event.target.value;
@@ -13,13 +12,13 @@ export default function App() {
 
     if (meaning === undefined)
       meaning = "Im too lazy to define this one! Try the other one!";
-      setMeaning(meaning);
+      setEmojiMeaning(meaning);
   }
 
   function topEmojiList(item){
     var inputEmoji = item;
     var meaning = emojiList[inputEmoji];
-    setMeaning(meaning);
+    setEmojiMeaning(meaning);
   }
 
   return (
