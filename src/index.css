@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: #F0F8FF
+  background-color: #F0F8FF;
+  max-width: 100%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
