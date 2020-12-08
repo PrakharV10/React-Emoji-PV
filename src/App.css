@@ -26,6 +26,7 @@ input{
   background-color: #F0F8FF;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   font-size: 1.2rem;
+  outline: none;
 }
 
 ::placeholder{
@@ -50,13 +51,6 @@ input{
   margin: .3rem;
   cursor : pointer;
   transform: all .2s ease-in-out;
-}
-
-.topEmojis:hover{
-  /* border-bottom: 1px solid black; */
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
-  /* font-size : 2.7rem; */
-  
 }
 
 .topEmojiBox{

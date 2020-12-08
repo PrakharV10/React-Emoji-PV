@@ -49,7 +49,10 @@ export const emojiList = {
     "😂" : "Advice: Use 3-4 together. Just One seems too blunt!",
     "😁" : "Grinning. P.S. Brush your teeth twice, before using this.",
     "😗" : "Kiss Face, But I tend to use it to indirectly tell people the truth.",
-    "🥴" : "Want to get out of a conversatin? This works better than hmm."
+    "🥴" : "Want to get out of a conversatin? This works better than hmm.",
+    "💩" : "No Ashi*a! Its not Ice-cream! Stop licking it!",
+    "😙" : "Cringe - infinity.",
+    "🤪" : "The subtle I dont agree with u! OR I'm just crazy!"
 };
 
 export const topEmoji = [

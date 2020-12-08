@@ -4,7 +4,7 @@ import {emojiList , topEmoji} from './emojis.js';
 
 export default function App() {
   
-  var [emojiMeaning , setEmojiMeaning] = useState("Type or Click an Emoji");
+  var [emojiMeaning , setEmojiMeaning] = useState("");
 
   function onChangeHandler(event){
     var inputEmoji = event.target.value;
