@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&display=swap');
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 10% auto 3rem;
+}
+
+.subhead{
+  display: block;
+  width : 70%;
+  margin: auto;
+  font-size: .9rem;
+  margin-bottom : 2rem;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+input{
+  padding: 1rem;
+  width: 60%;
+  border: .1rem solid black;
+  border-radius: .5rem;
+  background-color: #F0F8FF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-size: 1.2rem;
+}
+
+::placeholder{
+  opacity:0.8;
+  font-style: italic;
+}
+
+.outputTxt { 
+  border : .1rem solid black;
+  border-radius: .5rem;
+  padding: 1.6rem 1rem;
+  margin: 3rem auto;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.topEmojis {
+  font-size : 2.5rem;
+  padding : .2rem;
+  margin: .3rem;
+  cursor : pointer;
+  transform: all .2s ease-in-out;
+}
+
+.topEmojis:hover{
+  /* border-bottom: 1px solid black; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  /* font-size : 2.7rem; */
+  
+}
+
+.topEmojiBox{
+  padding: 1rem 0;
+}
